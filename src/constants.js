@@ -1,1 +1,1 @@
-export const DB_NAME = "api"
+export const DB_NAME = "database"

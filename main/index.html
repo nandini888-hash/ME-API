@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Developer Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Developer Portal</h1>
+
+  <!-- Search by Skill -->
+  <section>
+    <h2>Search by Skill</h2>
+    <input type="text" id="skillInput" placeholder="Enter skill (e.g. Node.js)" />
+    <button onclick="searchBySkill()">Search</button>
+    <ul id="usersList"></ul>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <button onclick="loadProjects()">Load Projects</button>
+    <ul id="projectsList"></ul>
+  </section>
+
+  <!-- Profile -->
+  <section>
+    <h2>My Profile</h2>
+    <button onclick="loadProfile()">View Profile</button>
+    <div id="profile"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
