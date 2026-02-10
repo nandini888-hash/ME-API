@@ -22,10 +22,10 @@ app.use(cookieParser())
 
 
 
-import profileRouter from './routes/profile.routes.js'
-// import queryRouter from "./routes/query.routes.js";
+//import profileRouter from './routes/profile.routes.js'
+import queryRouter from "./routes/query.routes.js";
 // routes declaration
-app.use("/api/v1/profile", profileRouter )
-// app.use("/api/v1",  queryRouter)
+//app.use("/api/v1/profile", profileRouter )
+app.use("/api/v1",  queryRouter)
 
 export {app}
